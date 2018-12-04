@@ -1,7 +1,5 @@
-some_str = ' ' * 4095000000
+some_str =  ' ' * 1048576 * 40000
 print ('allocate1')
-some_str2 = ' ' * 4095000000
-print ('allocate2')
-some_str2 = ' ' * 4095000000
-print ('allocate3')
 
+some_str =  ' ' * 1048576 * 10000
+print ('allocate2')
