@@ -1,2 +1,2 @@
-some_str = ' ' * 4095000000
-print 'lala'
+some_str = ' ' * 40950000000000
+print ('lala')
