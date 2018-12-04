@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/bash
 
 for index in 1 2 3 4 5; do
     value=$(($index * 1024))
