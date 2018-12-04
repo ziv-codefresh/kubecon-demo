@@ -1,2 +1,2 @@
-some_str =  ' ' * 1048576 * 3000
+some_str =  ' ' * 1048576 * 3500
 print ('finish allocation')
