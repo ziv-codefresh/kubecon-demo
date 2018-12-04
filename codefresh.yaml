@@ -3,6 +3,6 @@ steps:
   should_fail_step:
     title: test
     description: should faild because it will require more the the allowed memory
-    image: node:9.6.1-alpine
+    image: alpine
     commands:
     - curl -o mygettext.html http://www.gnu.org/software/gettext/manual/gettext.html
