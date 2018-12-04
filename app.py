@@ -1,2 +1,2 @@
-some_str = ' ' * 40960000001
+some_str = ' ' * 9000000000
 print ('lala')
