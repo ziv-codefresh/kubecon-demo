@@ -6,5 +6,5 @@ for x in range(0, 50):
     some_str =  some_str + (' ' * 1048576 * 50)
     print ('Allocated ' +str(size)+ 'Mi')
     size = size+50
-    time.sleep(2)
+    time.sleep(0.5)
 print ('finish allocation')
