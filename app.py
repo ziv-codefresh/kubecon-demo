@@ -2,7 +2,7 @@ import time
 print ('start allocation')
 some_str = ' '
 size = 0
-for x in range(0, 50):
+for x in range(0, 75):
     some_str =  some_str + (' ' * 1048576 * 50)
     print ('Allocated ' +str(size)+ 'Mi')
     size = size+50
