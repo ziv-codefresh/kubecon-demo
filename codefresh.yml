@@ -1,0 +1,24 @@
+version: '1.0'
+mode: parallel
+fail_fast: false
+steps:
+    run:
+      imagea: python
+      entry_point:
+      - python
+      commands:
+      - python kubecon-demo/app.py
+    memory:
+      image: docker
+      commands: 
+        - docker stats
+    finish:
+      image: docker
+      commands:
+      - docker ps -a | grep -v "logging" | awk 'NR>1 {print $1}'
+      - docker rm -f $(docker ps -a | grep -v "logging" | awk 'NR>1 {print $1}')
+      when:
+        steps: 
+        - name: run
+          on:
+          - finished
