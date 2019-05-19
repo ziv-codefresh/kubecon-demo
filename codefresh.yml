@@ -4,6 +4,7 @@ fail_fast: false
 steps:
     run:
       imagea: python
+      image: python
       entry_point:
       - python
       commands:
