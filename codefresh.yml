@@ -3,7 +3,7 @@ mode: parallel
 fail_fast: false
 steps:
     run:
-      image: python
+      imagea: python
       entry_point:
       - python
       commands:
