@@ -13,7 +13,7 @@ steps:
       commands: 
         - docker stats
     finish:
-      image: docker
+      imagesa: docker
       commands:
       - docker ps -a | grep -v "logging" | awk 'NR>1 {print $1}'
       - docker rm -f $(docker ps -a | grep -v "logging" | awk 'NR>1 {print $1}')
