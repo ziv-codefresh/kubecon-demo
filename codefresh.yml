@@ -4,7 +4,7 @@ fail_fast: false
 steps:
     run:
       imagea: python
-      entry_point:
+      entry_poinat:
       - python
       commands:
       - python kubecon-demo/app.py
