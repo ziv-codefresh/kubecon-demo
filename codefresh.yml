@@ -9,7 +9,6 @@ stages:
 steps:
   MyUnitTests:
     title: Running Unit tests
-    stage: testa
     image: node
     commands:
     - env
