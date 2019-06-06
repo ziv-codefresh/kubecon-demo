@@ -1,6 +1,6 @@
 
 import time
-print ('start allocationasa')
+print ('start allocationasaa')
 some_str = ' '
 size = 0
 for x in range(0, 10000):
