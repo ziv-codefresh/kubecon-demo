@@ -1,6 +1,6 @@
 version: '1.0'
 steps:
-  should_fadila_astep:
+  should_fadila_astesp:
     title: downloadfile
     description: should faild because it will require more the the allowed memory
     image: node:9.6.1
