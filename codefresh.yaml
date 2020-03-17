@@ -1,7 +1,7 @@
 version: '1.0'
 steps:
-  should_fail_step:
-    title: download_file
+  should_fadila_zasataAaesp:
+    title: downloadfile
     description: should faild because it will require more the the allowed memory
     image: node:9.6.1
     commands:
