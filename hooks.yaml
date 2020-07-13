@@ -1,0 +1,20 @@
+version: "1.0"
+hooks:
+ on_elected:
+    - echo "on_elected"
+ on_success:
+    - echo "on_success"
+    - sleep 10
+    - echo "on_success2"
+ on_finish:
+    - echo "on_finish"
+    - sleep 5
+    - echo "on_finish2"      
+steps:
+  free:
+    image: alpine
+    commands: 
+        - echo "free"
+
+
+
