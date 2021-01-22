@@ -18,7 +18,7 @@ steps:
     revision: "master"
     stage: "clone"
 
-   build:
+  build:
     title: "Building Docker image"
     type: "build"
     image_name: "codefresh-io/cli"
